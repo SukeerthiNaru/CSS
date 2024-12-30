@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(40, 135, 138);
+}
+p{
+    background: #a2b6bb;
+}
+h2{
+    padding: 10px;
+    color:blue;
+}
+h3{
+    background:#a2b6bb;
+}
+.ramu{
+    color:black;
+}
+#raju{
+    color:black;
+}
+.ramu,#raju{
+    color:rgb(39, 19, 75);
+    background-color: rgb(30, 95, 123);
+}
+<!---  universal selector*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+}>
