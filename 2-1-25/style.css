@@ -1,0 +1,95 @@
+.outer-box{
+  width:35%;
+  height:300px;
+  border: 2px solid black;
+  padding: 10px;
+  position:relative ;
+}
+ .inner-box{
+    width:30%;
+    height: 100px;;
+    border: 2px solid red;
+    margin: 80px;
+    bottom: 10px;
+    position:absolute;
+    left:30px;
+    right: 30px;
+    top: 20px;
+ }
+ .card{
+  width:300px;
+  height: 300px;
+  border: 2px solid brown;
+  padding: 2px;
+  position: relative;
+
+ }
+.icon{
+ width: 100px;
+ height: 100px;
+ border: 2px solid yellow;
+ background-color: green;
+ bottom: 0px;
+ right:0px;
+ position: absolute;
+}
+ .tooltip-container{
+  width:300px;
+  height:300px;
+  border: 2px solid black;
+  position: relative;
+  padding: 10px;
+
+}
+ .tooltip{
+  width: 100px;
+  height: 100px;
+  border: 2px solid blueviolet;
+  position:absolute;
+  right:218px;
+  bottom: 197px;
+ }
+ .button{
+  left: 0px;
+  position: absolute;
+  top: 0px;
+ }
+ .avatar-container{
+  width: 300px;
+  height: 300px;
+  border:7px solid palevioletred;
+  position: relative;
+ }
+ .badge{
+  width:100px;
+  height: 100px;
+  border:5px solid white;
+  position: absolute;
+  top:0px;
+  right:0px;
+ }
+ img{
+  width: 300px;
+  height:300px;
+ }
+ .image-container{
+  width: 300px;
+  height:300px;
+  border:3px solid brown;
+  position: relative;
+ }
+ .overlay{
+  width: 300px;
+  height:300px;
+  position: absolute;
+  top:0px;
+  left:0px;
+  margin-left:7px;
+  padding-left:150px;
+  margin:30px;
+ }
+ img{
+  width:300px;
+  height:300px;
+ }
+
