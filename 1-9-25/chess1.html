@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chessboard1</title>
+    <style>
+        *{
+       margin: 0%;
+       padding: 0%;
+        }
+        body .container{
+            display: flex;
+           position: fixed;
+        }
+        .container{
+            width:320px;
+            height:320px;
+            display: flex;
+            position:absolute;
+            border: 2px solid black;
+            top: 50%;
+            left:50%;
+            flex-direction: column;
+            transform: translate(-50%,-50%)
+        }
+        .box{
+            display: flex;
+        }
+        .item{
+            width:40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box1 .item:nth-child(odd),
+        .box2 .item:nth-child(even),
+        .box3 .item:nth-child(odd),
+        .box4 .item:nth-child(even),
+        .box5 .item:nth-child(odd),
+        .box6 .item:nth-child(even), 
+        .box7 .item:nth-child(odd),
+        .box8 .item:nth-child(even) {
+          background-color:white;
+        }
+        .box1 .item:nth-child(even),
+        .box2 .item:nth-child(odd),
+        .box3 .item:nth-child(even),
+        .box4 .item:nth-child(odd),
+        .box5 .item:nth-child(even),
+        .box6 .item:nth-child(odd), 
+        .box7 .item:nth-child(even),
+        .box8 .item:nth-child(odd){
+            background-color: grey;
+        }
+
+        .item{
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+<body><center>
+   <h2>chessboard</h2></center>
+   <center><p>using pseudo class and nth child properties</p></center>
+   <div class="container">
+    <div class="box box1">
+        <div class="item item1">&#9814</div>
+        <div class="item item1">&#9816</div>
+        <div class="item item1">&#9821</div>
+        <div class="item item1">&#9819</div>
+        <div class="item item1">&#9818</div>
+        <div class="item item1">&#9821</div>
+        <div class="item item1">&#9816</div>
+        <div class="item item1">&#9814</div>
+    </div>
+    <div class="box box2">
+        <div class="item item1">&#9823</div>
+        <div class="item item1">&#9823</div>
+        <div class="item item1">&#9823</div>
+        <div class="item item1">&#9823</div>
+        <div class="item item1">&#9823</div>
+        <div class="item item1">&#9823</div>
+        <div class="item item1">&#9823</div>
+        <div class="item item1">&#9823</div>
+    </div>
+    <div class="box box3">
+        <div class="item item1"></div>
+        <div class="item item1"></div>
+        <div class="item item1"></div>
+        <div class="item item1"></div>
+        <div class="item item1"></div>
+        <div class="item item1"></div>
+        <div class="item item1"></div>
+        <div class="item item1"></div>
+    </div>
+   <div class="box box4">
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+   </div>
+   <div class="box box5">
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+   </div>
+   <div class="box box6">
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+    <div class="item item1"></div>
+   </div>
+   <div class="box box7">
+    <div class="item item1">&#9823</div>
+    <div class="item item1">&#9823</div>
+    <div class="item item1">&#9823</div>
+    <div class="item item1">&#9823</div>
+    <div class="item item1">&#9823</div>
+    <div class="item item1">&#9823</div>
+    <div class="item item1">&#9823</div>
+    <div class="item item1">&#9823</div>
+   </div>
+   <div class="box box8">
+    <div class="item item1">&#9814</div>
+    <div class="item item1">&#9816</div>
+    <div class="item item1">&#9815</div>
+    <div class="item item1">&#9813</div>
+    <div class="item item1">&#9812</div>
+    <div class="item item1">&#9815</div>
+    <div class="item item1">&#9816</div>
+    <div class="item item1">&#9814</div>
+   </div>
+   </div>  
+</body>
+</html>
